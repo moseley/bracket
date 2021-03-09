@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { makeStyles, Theme } from '@material-ui/core/styles'
-import Box from '@material-ui/core/Box'
 import Typography from '@material-ui/core/Typography'
-import CircularProgress from '@material-ui/core/CircularProgress'
 import { teamByConferenceSeed } from './Seeds'
 import { Conferences, Seeds } from './bracketSlice'
 
@@ -47,10 +45,7 @@ const Label = ({ conference, seed }: LabelProps) => {
         </div>
       ) : (
         <>
-          <Box pr={1}>
-            <CircularProgress color='secondary' size={20} />
-          </Box>
-          <Typography variant='h6'>TBD</Typography>
+          <Typography variant='h6'>&hellip;</Typography>
         </>
       )}
     </div>

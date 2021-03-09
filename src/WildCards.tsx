@@ -12,9 +12,9 @@ const WildCards = ({ conference }: WildCardsProps) => {
       <Match
         round='WildCard'
         conference={conference}
-        match={1}
-        home={4}
-        away={5}
+        match={3}
+        home={2}
+        away={7}
       />
       <Match
         round='WildCard'
@@ -26,9 +26,9 @@ const WildCards = ({ conference }: WildCardsProps) => {
       <Match
         round='WildCard'
         conference={conference}
-        match={3}
-        home={2}
-        away={7}
+        match={1}
+        home={4}
+        away={5}
       />
     </Box>
   )

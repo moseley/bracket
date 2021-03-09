@@ -2,9 +2,13 @@
 
 A Portfolio Project by Jeremy Moseley
 
-This is a React web app using Material-UI & Redux written in TypeScript.
+React web app using Material-UI and Redux. Written in TypeScript.
 
-The games are displayed using Flexbox. In the NFL playoffs the lowest seeded advancing team plays the highest seeded advancing team after each round making for some interesting logic.
+Redux is complete overkill, but allows for more modular code.
+
+Game organization is displayed with flexbox containers.
+
+The lowest seed always faces the highest advancing seed making for some interesting game logic.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b5744c34-5cbc-4c2b-bdf6-c234dbe6381e/deploy-status)](https://app.netlify.com/sites/bracket-challenge/deploys)
 

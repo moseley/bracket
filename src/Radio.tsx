@@ -14,7 +14,7 @@ const Radio = ({ conference, seed }: RadioProps) => {
   return (
     <FormControlLabel
       value={team ? team.id : ''}
-      control={<MuiRadio />}
+      control={<MuiRadio disabled={!team} />}
       label={<Label conference={conference} seed={seed} />}
     />
   )
